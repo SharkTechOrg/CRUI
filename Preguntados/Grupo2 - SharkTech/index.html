@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quién Sabe Más?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<img src="logo.png" class="imglogo">
+<h1 class="titulocategoria">Categoria : Salud</h1>
+<span id="numeroPregunta" class="numeroPregunta"> Pregunta Numero: 1 </span>
+</header>
+
+<main>
+		<div class="cardPreguntas" id="pregunta1">
+
+			
+			
+		<h2 id="pregunta">¿Cuánta agua hay que beber al día?</h2>
+		<div id="respuesta">
+                <button class="btn" onclick="validarRespuesta(1,1,1)" id="respuesta1">1,5 y 2 litros</button>
+                <button class="btn" onclick="validarRespuesta(0,2,1)" id="respuesta2">4 litros</button>
+                <button class="btn" onclick="validarRespuesta(0,3,1)" id="respuesta3">3 litros</button>
+                <button class="btn" onclick="validarRespuesta(0,4,1)" id="respuesta4">5 litros</button>
+            </div>
+			
+			
+		</div>
+		
+		
+		<div class="cardPreguntas" id="pregunta2" style="display:none;">
+		
+				<h2 id="pregunta">¿Cuál es la capital de Francia?</h2>
+		<div id="respuesta">
+                <button class="btn" onclick="validarRespuesta(1,5,2)" id="respuesta5">París</button>
+                <button class="btn" onclick="validarRespuesta(0,6,2)" id="respuesta6">Londres</button>
+                <button class="btn" onclick="validarRespuesta(0,7,2)" id="respuesta7">Berlín</button>
+                <button class="btn" onclick="validarRespuesta(0,8,2)" id="respuesta8">Madrid</button>
+            </div>
+			
+			
+			
+		</div>
+		
+		
+		
+		
+		<div class="cardPreguntas" id="pregunta3" style="display:none;">
+		
+		<h2 id="pregunta">Todas las escuelas del país deben tener educación sexual integral en sus planes de estudio para generar actitudes responsables y prevenir problemas relacionados con la salud sexual.</h2>
+		<div id="respuesta">
+                <button class="btn" onclick="validarRespuesta(1,9,3)" id="respuesta9">Verdadero</button>
+                <button class="btn" onclick="validarRespuesta(0,10,3)" id="respuesta10">Falso</button>
+                <button class="btn" onclick="validarRespuesta(0,3,3)" id="respuesta3" style="display:none"></button>
+                <button class="btn" onclick="validarRespuesta(0,4,3)" id="respuesta4" style="display:none"></button>
+            </div>
+			
+			
+			
+		</div>
+		
+		
+				<div class="cardPreguntas" id="pregunta4" style="display:none;">
+					<h2 id="pregunta">Fin	</h2>
+				</div>
+		
+		
+		
+		
+</main>
+
+
+<footer>
+
+        <div id="feedback"></div>
+
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
