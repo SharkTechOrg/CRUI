@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¿Quién Sabe Más?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="logo-mini.png" class="imglogo" />
+      <h1 class="titulocategoria">Categoria : <span id="categoria"></span></h1>
+      <div class="numeroPregunta_contenedor">
+        <span id="numeroPregunta" class="numeroPregunta">
+          Pregunta Numero: 1
+        </span>
+      </div>
+    </header>
+
+    <main>
+      <div class="cardPreguntas">
+        <h2 id="pregunta">Pregunta</h2>
+        <div id="respuesta">
+          <!-- 
+          <button class="btn" onclick="validarRespuesta(1,1,1)" id="respuesta1">
+            1,5 y 2 litros
+          </button>
+          <button class="btn" onclick="validarRespuesta(0,2,1)" id="respuesta2">
+            4 litros
+          </button>
+          <button class="btn" onclick="validarRespuesta(0,3,1)" id="respuesta3">
+            3 litros
+          </button>
+          <button class="btn" onclick="validarRespuesta(0,4,1)" id="respuesta4">
+            5 litros
+          </button>
+         -->
+        </div>
+      </div>
+
+      <div class="cardPreguntas" id="resultado" style="display: none">
+        <h2 id="pregunta">Fin</h2>
+      </div>
+    </main>
+
+    <footer>
+      <div id="feedback"></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
